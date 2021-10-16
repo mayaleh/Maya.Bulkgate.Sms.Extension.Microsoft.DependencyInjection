@@ -2,9 +2,9 @@
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
 		<Authors>Salim Mayaleh</Authors>
-		<Title>Maya.Bulkgate.Sms.Extension.Microsoft.DependencyInjection</Title>
-		<PackageId>Maya.Bulkgate.Sms.Extension.Microsoft.DependencyInjection</PackageId>
-		<Description>Maya.Bulkgate.Sms.Extension.Microsoft.DependencyInjection an extension for Maya.Bulkgate.Sms package using Microsoft DI.</Description>
+		<Title>Maya.BulkGate.Sms.Extension.Microsoft.DependencyInjection</Title>
+		<PackageId>Maya.BulkGate.Sms.Extension.Microsoft.DependencyInjection</PackageId>
+		<Description>Maya.BulkGate.Sms.Extension.Microsoft.DependencyInjection an extension for Maya.Bulkgate.Sms package using Microsoft DI.</Description>
 		<Summary>Dependency Injection for Maya.Bulkgate.Sms package.</Summary>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 		<NeutralLanguage>en</NeutralLanguage>
@@ -15,10 +15,14 @@
 		<DebugType>embedded</DebugType>
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<Product>Maya.BulkGate.Sms.Extension.Microsoft.DependencyInjection</Product>
 	</PropertyGroup>
 
 
 	<ItemGroup>
+		<PackageReference Include="Maya.BulkGate.Sms" Version="0.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
 			<PrivateAssets>all</PrivateAssets>
