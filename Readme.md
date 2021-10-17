@@ -13,6 +13,21 @@ PM> Install-Package Maya.BulkGate.Sms.Extension.Microsoft.DependencyInjection
 
 ## Usages
 
+### With appsettings.json
+
+Add configuration to your appsettings.json:
+
+```json
+{
+    "MayaBulkGateSms": {
+        "ApplicationId": "your APPLICATION_ID",
+        "ApplicationToken": "your APPLICATION_TOKEN"
+    }
+}
+```
+
+Register to service collection in `Startup.cs`:
+
 `````c#
 ...
 using Maya.BulkGate.Sms.Extension.Microsof.DependencyInjection;
