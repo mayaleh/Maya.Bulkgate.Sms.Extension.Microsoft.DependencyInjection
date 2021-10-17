@@ -16,6 +16,7 @@
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<Product>Maya.BulkGate.Sms.Extension.Microsoft.DependencyInjection</Product>
+		<UseShortFileNames>True</UseShortFileNames>
 	</PropertyGroup>
 
 
