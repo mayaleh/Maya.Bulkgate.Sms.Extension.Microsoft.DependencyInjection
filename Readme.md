@@ -50,3 +50,10 @@ public class Startup
     }
 }
 `````
+
+See the [Introduction and documentation of the primary package](https://mayaleh.github.io/Maya.Bulkgate.Sms/articles/intro.html)
+
+
+[Sample with DI](https://github.com/mayaleh/Maya.SendSms)
+
+[♥ Sponsor](https://github.com/sponsors/mayaleh)
